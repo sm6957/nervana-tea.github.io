@@ -1,0 +1,112 @@
+<!DOCTYPE>
+
+<head>
+	<title>Nervana</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel='shortcut icon' type='image/x-icon' href='favicon1.ico' />
+
+	<style>
+body {
+	background-color: #e18a6b;
+	font-family: Copperplate,serif; 
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #e18a6b;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.content {
+  transition: margin-left .5s;
+  padding-top: 10px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+	
+</head>
+
+
+<body>
+
+	<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="about.html">About</a>
+  <a href="index.html">Pre-Order</a>
+  
+  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+	<div id="main"> 
+		<button class="openbtn" onclick="openNav()">☰ </button>  
+		
+		<div id="wrapper">
+			<div class="brand">
+				<img src="logo.png">	
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjuM7VyAvSWOdGGFXUQvnKjFXXjI-MWHQYrHeVvXDGsPDnPg/viewform?embedded=true" width="640" height="847" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			</div>
+		</div>
+	</div>
+	
+	
+
+
+</body>

@@ -1,0 +1,72 @@
+body {
+	background-color:  #e18a6b
+;
+}
+
+#wrapper {
+	background-color: white;
+	padding-bottom: 100px;
+	margin-top: 40px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 50px;
+}
+
+#wrapper2 {
+	background-color: white;
+	padding-bottom: 50px;
+	margin-top: 40px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 50px;
+}
+
+.us {
+	background-color: white;
+}
+
+
+.brand img {
+	width: 70%;
+	margin-left: 80px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+
+.brand p {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+h1 {
+	margin-left: 150px;
+}
+
+
+.us h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*
+#elijah p {
+	margin-left: 78px;
+
+}
+
+#selam p {
+	margin-left: 120px;
+
+}
+
+*/
+
+
